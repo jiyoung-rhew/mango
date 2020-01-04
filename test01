@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>layout01</title>
+        <Style>
+            #wrap {width: 1000px; height: 90px; margin: 0 auto; color: #fff; font-size: 40px; }
+            #header {width: 1000px; height: 100px; background: #2e7d32;}
+            #nav {width: 1000px; height: 100px;  100px; background: #388e3c; }
+            #side {width: 300px; height: 600px; background: #43a047;}
+            #contents {width: 700px; height: 600px; background: #ccc;}
+            #footer {width: 1000px; height: 100px;background: #66bb6a;}
+        </Style>
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="header">a</div>
+            <div id="nav">b</div>
+            <div id="side">c</div>
+            <div id="contents">d</div>
+            <div id="footer">e</div>
+        </div>
+    </body>
+</html>
